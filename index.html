@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>신입 개발자 권호민 포트폴리오</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -28,7 +28,10 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a href="#experience">Education</a>
+            </li>
+            <li>
+                <a href="#education">External activities</a>
             </li>
             <li>
                 <a href="#projects">Projects</a>
@@ -45,13 +48,12 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>권호민의</h1>
-            <h1>포트폴리오입니다.</h1>
+            <h1>KWON HO MIN</h1>
             <h2>Developer</h2>
         </div>
         <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+        <div id="lead-overlay" style="background: rgb(33 98 187 / 57%);"></div>
 
         <div id="lead-down">
             <span>
@@ -66,53 +68,86 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading" style="font-weight: 800;">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div style="width:30%;">
+                            <img style="width: 100%; height: 100%; object-fit: cover;" src="https://res.cloudinary.com/dnik5jlzd/image/upload/v1682431085/readme/gitPage/KakaoTalk_20230312_121912172_01_azkeg3.jpg" />
+                        </div>
+                        <div style="margin-left: 15px;">
+                            <h2>권 호 민</h2>
+                            <div>
+                                <p>끊임없이 노력하여 성공하는 개발자가 되고 싶습니다.</p>
+                                <p>어느 곳에 가서도 신뢰 받을 수 있는 사람이 되겠습니다.</p>
+                                <p>중간에 포기하지 않고 끝까지 같이 갈 수 있는 개발자가 되겠습니다.</p>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <div>
+                                    <div style="display: flex; margin-top: 10px;"><label for="" style="color: black;">Phone:</label><p style="margin-left: 5px;">010-5336-4933</p></div>
+                                    <div style="display: flex; margin-top: 10px;"><label for="" style="color: black;">Email:</label><p style="margin-left: 5px;">ghals852@naver.com</p></div>
+                                    <div style="display: flex; margin-top: 10px;"><label for="" style="color: black;">Address:</label><p style="margin-left: 5px;">서울특별시 강동구</p></div>
+                                </div>
+                                <div>
+                                    <a style="font-size: 80px; margin-right: 30px;" href="https://github.com/homin0203" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- End #about -->
 
-    <!--<div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+    <div id="experience" class="background-alt">
+        <h2 class="heading" style="font-weight: 800;">Education</h2>
         <div id="experience-timeline">
-            <div data-date="">
-                <h3></h3>
-                <h4></h4>
+            <div data-date="2011.03 – 2014.02">
+                <h3>동북고등학교</h3>
+                <h4>이과계열</h4>
+                <p>
+                    인문계 동북고등학교 졸업
+                </p>
+            </div>
+
+            <div data-date="2014.03 – 2017.02">
+                <h3>한서항공전문학교</h3>
+                <h4>항공 정비과</h4>
+                <p>
+                    한서항공전문학교 항공 정비과 대학과정 졸업 
+                </p>
             </div>
         </div>
-    </div>-->
-    <!-- End #experience -->
+    </div>
+    <!-- End #Education -->
+
+    
 
     <div id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading" style="font-weight: 800;">External activities</h2>
         <div class="education-block">
             <h3>KH정보교육원</h3>
             <span class="education-date">2022. 08 - 2023. 03</span>
             <h4>자바(JAVA)기반 공공데이터 융합 개발자 양성과정</h4>
-            <p>교육 과목 :</p>
-            <P>- 프로그래밍 언어 활용/응용<a href="https://github.com/homin0203/Java_exam">(실습문제 및 과제 Git 이동)</a></P>
-            <P>- 네트워크 프로그래밍 구현</P>
-            <P>- 데이터베이스 구현, SQL 활용/응용<a href="https://github.com/homin0203/SQL_exam">(실습문제 및 과제 Git 이동)</a></P>
-            <P>- UI 디자인, UI 구현</P>
-            <p>- 요구사항 확인, 서버프로그램 구현, 애플리케이션 설계</p>
-            <p>- 인터페이스 구현, 통합 구현</p>
-            <p>- 공공데이터 활용하기</p>
-            <p>- 애플리케이션 배포, 애플리케이션 테스트 관리</p>
+            <p style="margin-top: 2px; color: black;">교육 과목 :</p>
+            <P style="margin-top: 2px;">- 프로그래밍 언어 활용/응용</P>
+            <a href="https://github.com/homin0203/Java_exam">&nbsp;&nbsp;&rarr; 프로그래밍 언어 활용/응용 과목 실습문제 및 과제 Git 보기 </a><a style="font-size: 15px;" href="https://github.com/homin0203/Java_exam" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <P style="margin-top: 2px;">- 네트워크 프로그래밍 구현</P>
+            <P style="margin-top: 2px;">- 데이터베이스 구현, SQL 활용/응용</P>
+            <a href="https://github.com/homin0203/SQL_exam">&nbsp;&nbsp;&rarr; 데이터베이스 SQL문 실습문제 및 과제 Git 보기 </a><a style="font-size: 15px;" href="https://github.com/homin0203/SQL_exam" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <P style="margin-top: 2px;">- UI 디자인, UI 구현</P>
+            <p style="margin-top: 2px;">- 요구사항 확인, 서버프로그램 구현, 애플리케이션 설계</p>
+            <p style="margin-top: 2px;">- 인터페이스 구현, 통합 구현</p>
+            <p style="margin-top: 2px;">- 공공데이터 활용하기</p>
+            <p style="margin-top: 2px;">- 애플리케이션 배포, 애플리케이션 테스트 관리</p>
         </div>
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading" style="font-weight: 800;">Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -120,11 +155,12 @@
                         <img style="width: 300px; height: 300px; object-fit: cover;" src="https://res.cloudinary.com/dnik5jlzd/image/upload/v1682399850/readme/gitPage/Kurly%ED%8C%80_%EC%B5%9C%EC%A2%85_%EB%B0%9C%ED%91%9C_1_tohrjc.png" />
                     </div>
                     <!-- End .project-image -->
-                    <div class="project-info">
-                        <h2 style="font-weight: 700;">Kurly</h2>
-                        <p>기간 : 2022.10.31 ~ 2022.11.21</p>
-                        <p>주제 : 마켓컬리 사이트 벤치마킹 화면 구현</p>
-                        <p>HTML5, CSS3, Javascript, jQuery를 활용하여 마켓컬리 사이트 클론코딩 미니 팀 프로젝트</p>
+                    <div class="project-info" style="top: 48%;">
+                        <h2 style="font-weight: 700; margin: 15px 0; text-align: left;">Kurly</h2>
+                        <p style="text-align: left;"><strong style="color: black;">기간 :</strong> 2022.10.31 ~ 2022.11.21</p>
+                        <p style="text-align: left;"><strong style="color: black;">주제 :</strong> 마켓컬리 사이트 벤치마킹 화면 구현</p>
+                        <p style="text-align: left; height: 40px;">HTML5, CSS3, Javascript, jQuery를 활용하여 마켓컬리 사이트 클론코딩 미니 팀 프로젝트</p>
+                        <p style="text-align: left; margin: 15px 0 40px; font-size: 12px;">#HTML5&nbsp;&nbsp;#CSS3&nbsp;&nbsp;#Javascript&nbsp;&nbsp;#jQuery</p>
                         <a href="https://github.com/homin0203/mini_project">View Project</a>
                     </div>
                     <!-- End .project-info -->
@@ -136,11 +172,12 @@
                         <img style="width: 300px; height: 300px; object-fit: cover;" src="https://res.cloudinary.com/dnik5jlzd/image/upload/c_scale,h_330/v1682400191/readme/gitPage/nandalMain_zgq7sr.png" />
                     </div>
                     <!-- End .project-image -->
-                    <div class="project-info">
-                        <h2 style="font-weight: 700;">Nandal</h2>
-                        <p>기간 : 2022.11.26 ~ 2023.1.3</p>
-                        <p>주제 : 원데이 클래스 예약 사이트</p>
-                        <p>직관적인 UI 및 조회 시 기존 선택 외에 리뷰 추천 정보를 기반으로 정렬을 제공하여 편의성 증가를 목표로한 세미 개인 프로젝트</p>
+                    <div class="project-info" style="top: 48%;">
+                        <h2 style="font-weight: 700; margin: 15px 0; text-align: left;">Nandal</h2>
+                        <p style="text-align: left;"><strong style="color: black;">기간 :</strong> 2022.11.26 ~ 2023.1.3</p>
+                        <p style="text-align: left;"><strong style="color: black;">주제 :</strong> 원데이 클래스 예약 사이트</p>
+                        <p style="text-align: left; height: 40px;">직관적인 UI 및 조회 시 기존 선택 외에 리뷰 추천 정보를 기반으로 정렬을 제공하여 편의성 증가를 목표로한 세미 개인 프로젝트</p>
+                        <p style="text-align: left; margin: 15px 0 40px; font-size: 12px;">#Servlet&nbsp;&nbsp;#JQuery&nbsp;&nbsp;#Ajax</p>
                         <a href="https://github.com/homin0203/S2_Nandal">View Project</a>
                     </div>
                     <!-- End .project-info -->
@@ -152,12 +189,13 @@
                         <img style="width: 300px; height: 300px; object-fit: cover;" src="https://res.cloudinary.com/dnik5jlzd/image/upload/c_scale,h_330/v1682400321/readme/gitPage/swithMain_stxst4.png" />
                     </div>
                     <!-- End .project-image -->
-                    <div class="project-info">
-                        <h2 style="font-weight: 700;">Swith</h2>
-                        <p>기간 : 2023.1.24 ~ 2023.3.16</p>
-                        <p>주제 : 그룹 스터디 사이트</p>
-                        <p>스터디 모집부터 진행, 관리에 이르기까지 스터디에 필요한 모든 기능을 제공하는 그룹 스터디 사이트 제작 파이널 팀 프로젝트</p>
-                        <a href="https://github.com/homin0203/Project_Swith">View Project</a>
+                    <div class="project-info" style="top: 48%;">
+                        <h2 style="font-weight: 700; margin: 15px 0; text-align: left;">Swith</h2>
+                        <p style="text-align: left;"><strong style="color: black;">기간 :</strong> 2023.1.24 ~ 2023.3.16</p>
+                        <p style="text-align: left;"><strong style="color: black;">주제 :</strong> 그룹 스터디 사이트</p>
+                        <p style="text-align: left; height: 40px;" >스터디 모집부터 진행, 관리에 이르기까지 스터디에 필요한 모든 기능을 제공하는 그룹 스터디 사이트 제작 파이널 팀 프로젝트</p>
+                        <p style="text-align: left; margin: 15px 0 40px; font-size: 12px;">#Spring&nbsp;&nbsp;#MyBatis&nbsp;&nbsp;#JQuery&nbsp;&nbsp;#Cloudinary API</p>
+                        <a href="https://github.com/homin0203/Project_Swith" >View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -168,31 +206,58 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading" style="margin-bottom: 15px; font-weight: 800;">Skills</h2>
+        <h3>Language</h3>
         <ul>
             <li>Java</li>
-            <li>Servlet</li>
-            <li>Spring</li>
-            <li>MyBatis</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Ajax</li>
+            <li>JSP</li>
             <li>HTML5</li>
             <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Ajax</li>
+        </ul>
+        <h3>FrontEnd</h3>
+        <ul>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>BootStrap</li>
+        </ul>
+        <h3>BackEnd</h3>
+        <ul>
+            <li>Spring</li>
+            <li>JSP</li>
+            <li>JSTL</li>
+            <li>MyBatis</li>
+            <li>Servlet</li>
+        </ul>
+        <h3>DataBase(DB)</h3>
+        <ul>
             <li>ORACLE</li>
+        </ul>
+        <h3>Tools</h3>
+        <ul>
+            <li>Git</li>
+            <li>Eclipse IDE</li>
+            <li>Visual Studio Code</li>
+            <li>STS3</li>
         </ul>
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+    <div id="contact" style="background: rgb(33 98 187 / 57%); ">
+        <h2 class="heading" style="font-weight: 800; color: #374054;">CONTACT ME</h2>
+        <h2>포트폴리오를 끝까지 봐주셔서 감사합니다.</h2>
+        <div style="display: flex; flex-direction: column; padding: 30px; margin: 0 auto;
+        background: #fff;
+        width: 60%;
+        box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);">
+            <h3 style="text-align: left;">Address :</h3><p style="text-align: left; margin: 0;">서울특별시 강동구</p>
+            <h3 style="text-align: left;">Email :</h3><p style="text-align: left; margin: 0;">ghals852@naver.com</p>
+            <h3 style="text-align: left;">Phone :</h3><p style="text-align: left; margin: 0;">010-5336-4933</p>
+            <h3 style="text-align: left;">github :</h3><a href="https://github.com/homin0203" style="text-align: left; margin: 0;">https://github.com/homin0203</a>
         </div>
         <!-- End #contact-form -->
     </div>
@@ -203,7 +268,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2023</span> 권호민
+                        Copyright &copy; <span id="current-year">2023</span> KWON HO MIN
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -213,9 +278,6 @@
                 </div>
                 <div class="col-sm-5 social">
                     <ul>
-                        <li>
-                            <a href="https://github.com/homin0203" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
                     </ul>
                 </div>
             </div>
